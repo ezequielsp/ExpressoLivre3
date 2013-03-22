@@ -1,0 +1,244 @@
+# 
+# Translators:
+# sao sang <saosangmo@yahoo.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: Tine 2.0\n"
+"POT-Creation-Date: 2008-05-17 22:12+0100\n"
+"PO-Revision-Date: 2013-02-20 11:51+0000\n"
+"Last-Translator: corneliusweiss <mail@corneliusweiss.de>\n"
+"Language-Team: Vietnamese (http://www.transifex.com/projects/p/tine20/language/vi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Country: GB\n"
+"X-Poedit-Language: en\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: Acl/Rights.php:103
+msgid "manage products"
+msgstr "quản lý sản phẩm"
+
+#: Acl/Rights.php:104
+msgid "add, edit and delete products"
+msgstr "thêm, xóa, sửa sản phẩm"
+
+#: Controller.php:83 Controller.php:103
+msgid "You do not have admin rights on Sales"
+msgstr "Bạn không có quyền quản trị trên hệ thống Kinh doanh"
+
+#: Model/Contract.php:91
+msgid "Responsible"
+msgstr "Chịu trách nhiệm"
+
+#: Model/Contract.php:92
+msgid "Customer"
+msgstr "Khách hàng"
+
+#: Model/Contract.php:93
+msgid "Partner"
+msgstr "Đối tác"
+
+#: Config.php:51
+msgid "Contract Number Creation"
+msgstr "Tạo số hợp đồng"
+
+#: Config.php:53
+msgid "Should the contract number be set manually or be auto-created?"
+msgstr "Sẽ tự động hay tự nhập"
+
+#: Config.php:56
+msgid "automatically"
+msgstr "tự động"
+
+#: Config.php:57
+msgid "manually"
+msgstr "tự nhập"
+
+#: Config.php:64
+msgid "Contract Number Validation"
+msgstr "Phê chuẩn số hợp đồng"
+
+#: Config.php:66
+msgid "The Number can be validated as text or number."
+msgstr "Số có thể được phê chuẩn khi là chữ hoặc số"
+
+#: Config.php:69 js/Models.js:199 js/ContractEditDialog.js:136
+msgid "Number"
+msgstr "Số"
+
+#: Config.php:70
+msgid "Text"
+msgstr "Chữ"
+
+#: Config.php:77
+msgid "Contract Status Available"
+msgstr "Trạng thái hợp đồng sẵn sàng"
+
+#: Config.php:79
+msgid ""
+"Possible Contract status. Please note that additional contract status might "
+"impact other Sales systems on export or syncronisation."
+msgstr "Trạng thái hợp đồng có thể. Xin nhớ rằng trạng thái hợp đồng thêm vào có thể xung đột với hệ thống kinh doanh khi xuất dữ liệu hoặc đồng bộ."
+
+#: Config.php:87
+msgid "Contract Cleared State Available"
+msgstr "Hợp đồng có trạng thái sẵn sàng xóa"
+
+#: Config.php:89
+msgid "Possible Contract cleared states."
+msgstr "Trạng thái đã xóa của hợp đồng có thể"
+
+#: Setup/Update/Release5.php:63 Setup/Initialize.php:34
+msgid "My Products"
+msgstr "Sản phẩm của tôi"
+
+#: Setup/Update/Release5.php:64 Setup/Initialize.php:35
+msgid "Products created by myself"
+msgstr "Sản phẩm tạo bởi tôi"
+
+#: Setup/Update/Release5.php:84 Setup/Initialize.php:55
+msgid "My Contracts"
+msgstr "Hợp đồng của tôi"
+
+#: Setup/Update/Release5.php:85 Setup/Initialize.php:56
+msgid "Contracts created by myself"
+msgstr "Hợp đồng tạo bởi tôi"
+
+#: js/AdminPanel.js:61
+msgid "Cancel"
+msgstr "Hủy"
+
+#: js/AdminPanel.js:69
+msgid "OK"
+msgstr "OK"
+
+#: js/AdminPanel.js:90
+msgid "Loading..."
+msgstr "Đang tải"
+
+#: js/ContractGridPanel.js:82
+msgid "Contract number"
+msgstr "Số hợp đồng"
+
+#: js/ContractGridPanel.js:88 js/Models.js:236 js/ContractEditDialog.js:143
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: js/ContractGridPanel.js:94 js/Models.js:146 js/ContractEditDialog.js:176
+msgid "Status"
+msgstr "Trạng thái"
+
+#: js/ContractGridPanel.js:101 js/Models.js:153 js/ContractEditDialog.js:183
+msgid "Cleared"
+msgstr "Đã xóa"
+
+#: js/ContractGridPanel.js:108 js/Models.js:159 js/ContractEditDialog.js:187
+msgid "Cleared in"
+msgstr "Xóa vào"
+
+#: js/ProductEditDialog.js:93 js/ProductGridPanel.js:121
+msgid "Name"
+msgstr "Tên"
+
+#: js/ProductEditDialog.js:99 js/ProductGridPanel.js:125
+msgid "Price"
+msgstr "Giá"
+
+#: js/ProductEditDialog.js:106 js/ProductGridPanel.js:122
+msgid "Manufacturer"
+msgstr "Nhà sản xuất"
+
+#: js/ProductEditDialog.js:110 js/ProductGridPanel.js:123
+msgid "Category"
+msgstr "Danh mục"
+
+#: js/ProductEditDialog.js:114 js/ProductGridPanel.js:124
+#: js/ContractEditDialog.js:193
+msgid "Description"
+msgstr "Mo tả"
+
+#: js/ProductEditDialog.js:115 js/ContractEditDialog.js:194
+msgid "Enter description..."
+msgstr "Nhập vào mô tả"
+
+#: js/ProductGridPanel.js:120
+msgid "Tags"
+msgstr "Thẻ"
+
+#: js/Models.js:39
+msgid "Product"
+msgid_plural "Products"
+msgstr[0] "one:Sản phẩm\nother:Sản phẩm"
+
+#: js/Models.js:42 js/Models.js:225
+msgid "record list"
+msgid_plural "record lists"
+msgstr[0] "one: danh sách biểu ghi\nother: danh sách biểu ghi"
+
+#: js/Models.js:76 js/Models.js:142 js/Models.js:198 js/Models.js:235
+msgid "Quick search"
+msgstr "Tìm nhanh"
+
+#: js/Models.js:77
+msgid "Product name"
+msgstr "Tên sản phẩm"
+
+#: js/Models.js:79 js/Models.js:144
+msgid "Creator"
+msgstr "Người tạo"
+
+#: js/Models.js:112
+msgid "Contract"
+msgid_plural "Contracts"
+msgstr[0] "one:Hợp đồng\nother:Hợp đồng"
+
+#: js/Models.js:116
+msgid "All Contracts"
+msgid_plural "contracts lists"
+msgstr[0] "one:Mọi hợp đồng\nother:Danh sách hợp đồng"
+
+#: js/Models.js:143
+msgid "Contract name"
+msgstr "Tên hợp đồng"
+
+#: js/Models.js:185
+msgid "CostCenter"
+msgid_plural "CostCenters"
+msgstr[0] "one:Giá trung tâm\nother:Giá trung tâm"
+
+#: js/Models.js:188
+msgid "All CostCenters"
+msgid_plural "All CostCenters"
+msgstr[0] "one: Mọi giá trung tâm\nother: Mọi giá trung tâm"
+
+#: js/Models.js:200
+msgid "Remark"
+msgstr "Đánh dấu lại"
+
+#: js/Models.js:222
+msgid "Division"
+msgid_plural "Divisions"
+msgstr[0] "one: Bộ phận\nother: Bộ phận"
+
+#: js/ContractEditDialog.js:96
+msgid "Please use a decimal number here!"
+msgstr "Xin sử dụng 1 số thập phân tại đây!"
+
+#: js/ContractEditDialog.js:149
+msgid "Contract Contact"
+msgstr ""
+
+#: js/ContractEditDialog.js:161
+msgid "Account Manager"
+msgstr ""
+
+#: js/ContractEditDialog.js:170
+msgid "Company"
+msgstr "Công ty"
+
+#: Controller/Contract.php:83
+msgid "The number you have tried to set is already in use!"
+msgstr "Số bạn đang đặt đã tồn tại!"
